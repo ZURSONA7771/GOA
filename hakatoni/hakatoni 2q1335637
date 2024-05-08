@@ -1,0 +1,7 @@
+#მწავენს მეოთხე
+rectangle1 = int(input("enter the lenght of rectangle "))
+rectangle2 = int(input("enter the width of rectangle "))
+
+answer = rectangle1 * rectangle2
+
+print(answer)

@@ -1,0 +1,6 @@
+
+num1 = (input( 'plase enter number: '))
+num2 = (input(' please enter second num: '))
+
+x = max(num1,num2)
+print (x)
