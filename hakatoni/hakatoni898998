@@ -1,5 +1,0 @@
-#მწვანეს მე5
-str1 = input("first input: ")
-str2 = input("second input: ")
-
-print(str1 + "-" + str2)

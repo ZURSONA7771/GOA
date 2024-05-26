@@ -1,9 +1,0 @@
-#witlis 1
-num1 = int(input("plase enter number"))
-num2 = int(input("plase enter second number"))
-some = 0
-for i in range (num1,num2,2):
-    some = some + i
-print(some)
-
- 

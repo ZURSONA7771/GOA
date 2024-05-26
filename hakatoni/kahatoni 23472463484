@@ -1,6 +1,0 @@
-#ყვითელის მესამე
-num5 = int(input("Please enter number: "))
-if num5 < 0:
-    print(num5 * -1)
-else:
-    print(num5)
