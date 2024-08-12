@@ -18,10 +18,10 @@
 
     #დავალება 4)
 
-result = 0
+# result = 0
 
-for i in range(50):
-    print(i)
-    result = result + i
+# for i in range(50):
+#     print(i)
+#     result = result + i
 
-print(result)
+# print(result)
