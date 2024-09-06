@@ -13,7 +13,7 @@ print(33 >=  44)
 print (21 >= 2)
 
 
-print( 22 > 10)
+print(56 < 100)
 print(20 > 9)
 print(16 > 111)
 print(12 > 22)
