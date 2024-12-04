@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფორმა</title>
+    <style>
+        input {
+            border: 2px solid transparent;
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px 0;
+            outline: none; /* outlines მოშორება */
+        }
+
+        /* ტექსტური ინფუთი */
+        input[type="text"] {
+            border-color: lightblue;
+        }
+
+        /* პაროლის ინფუთი */
+        input[type="password"] {
+            border-color: lightcoral;
+        }
+
+        /* ელ.ფოსტის ინფუთი */
+        input[type="email"] {
+            border-color: lightgreen;
+        }
+
+        /* რადიო ბატონი */
+        input[type="radio"] {
+            border-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <label for="textInput">ტექსტური ინფუთი:</label>
+        <input type="text" id="textInput" name="textInput">
+
+        <label for="passwordInput">პაროლი:</label>
+        <input type="password" id="passwordInput" name="passwordInput">
+
+        <label for="emailInput">ელ.ფოსტა:</label>
+        <input type="email" id="emailInput" name="emailInput">
+
+        <label for="radioInput">რადიო ბატონი:</label>
+        <input type="radio" id="radioInput" name="radioInput">
+    </form>
+
+</body>
+</html>
